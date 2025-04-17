@@ -1,4 +1,5 @@
 #conceitos_fundamentais/poo
+#topico_nv1
 
 A POO é um paradigma da programação criado por Alan Kay que visa representar coisas da vida real em forma de objetos na programação, onde cada objeto possuí suas características (atributos) e funções (métodos).
 As principais vantagens dessa abordagem são:
@@ -8,4 +9,5 @@ As principais vantagens dessa abordagem são:
 - Extensível
 - Reutilizável
 
-[[Classes, Objetos e Instâncias]]
+[[Conceitos Técnicos]]
+[[Pilares da POO]]
