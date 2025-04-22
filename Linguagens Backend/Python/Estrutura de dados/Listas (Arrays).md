@@ -1,7 +1,7 @@
 #backend/python/estrutura_de_dados/listas
 Em primeiro lugar, uma lista em Python é o equivalente à um array em linguagens de programação mais famosas, como o C e o JS.
 
-Em Python, uma lista é um [[Tipos Mutáveis e Imutáveis#Objetos Mutáveis|objeto mutável]] ou seja, p====odemos fazer mais coisas com esse tipo além de acessar valores, como um CRUD.
+Em Python, uma lista é um [[Tipos Mutáveis e Imutáveis#Objetos Mutáveis|objeto mutável]] ou seja, podemos fazer mais coisas com esse tipo além de acessar valores, como um CRUD.
 
 ```table-of-contents
 ```
