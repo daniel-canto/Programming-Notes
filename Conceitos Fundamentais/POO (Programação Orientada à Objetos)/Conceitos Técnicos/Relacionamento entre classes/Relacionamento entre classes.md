@@ -4,3 +4,4 @@ Aqui serão listados os tipos de relacionamento entre classes.
 
 [[Agregação]]
 [[Composição]]
+[[Herança]]

@@ -23,12 +23,19 @@ Com isso, você pode definir atributos em hard code, ou passar parâmetros para 
 **~={red}Nem todas as linguagens de programação podem seguir à risca essas características.=~**
 Além dos atributos, ~={green}o construtor também pode chamar outros métodos ao inicializar um objeto=~. Isso é muito útil para realizar validações de dados, como em documentos.
 
+##### Método Abstrato
+É um método que é declarado, mas não é implementado na classe progenitora (que seria a classe mãe, como visto em [[Herança]]). Só pode ser utilizado em [[Interfaces|interfaces]] e [[Classes, Objetos e Instâncias#O que é uma classe abstrata?|classes abstratas]].
+
+##### Método final
+Ele não pode ser sobrescrito pelas suas sub-classes. Ele é obrigatoriamente herdado.
+
+---
 ### Atributos
 Em teoria, os ~={green}atributos representam as características de um objeto,=~ como peso, altura, cor de pele, cor dos olhos, sexo, idade, nome e etc.
 Em resumo eles carregam informações dos objetos.
 Assim como os métodos, no atributo existe um conceito chamado "[[Métodos e Atributos#Modificadores de visibilidade|modificadores de visibilidade]]", que indicam o nível de acesso aos componentes internos de uma classe.
 
-###  Modificadores de visibilidade
+### Modificadores de visibilidade
 Os modificadores de visibilidade servem para~={green} indicar o nível de acesso aos componentes internos de uma classe, ou seja, seus atributos e métodos.=~ Isso significa que um determinado modificador pode deixar um método ou atributo invisível para o outras partes do código por exemplo.
 Existem 3 tipos de modificadores, em UML (Unified Modeling Language) eles são representados com os seguintes símbolos: 
 ##### Público (+)

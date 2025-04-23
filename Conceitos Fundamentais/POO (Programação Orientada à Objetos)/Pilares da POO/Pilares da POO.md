@@ -4,3 +4,4 @@
 Aqui estão os pilares da POO.
 
 [[Encapsulamento]]
+[[Herança]]

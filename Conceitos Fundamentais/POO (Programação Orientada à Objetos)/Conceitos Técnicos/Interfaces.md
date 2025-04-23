@@ -11,6 +11,8 @@ Abaixo, está um exemplo em UML de uma interface que implementa uma classe, ness
 * Imagem:
 	![[Pasted image 20250422094209.png]]
 
+----
+### Interface em código
 Agora, vou demonstrar a implementação dessa interface utilizando algoritmos.
 * Exemplo:
 	**Criando uma interface com métodos abstratos: **
@@ -103,6 +105,9 @@ cclasse ControleRemoto implementa Controlador
 
 ```
 
+Vale ressaltar que ~={green}**quando você chama um método de uma interface, ele só será executado para o objeto específico da classe que você instanciou**,=~ não para todas as classes que implementam aquela interface.
+
+----
 ### Características
 * **Contrato de métodos**: uma interface declara métodos, mas não implementa nenhum deles, esse é o papel das classes, onde elas fornecem o código desses métodos.
 * **Sem atributos de instância**: elas geralmente não possuem atributos de instância (variáveis que guardam estado), apenas constantes, se necessário.
@@ -110,7 +115,8 @@ cclasse ControleRemoto implementa Controlador
 * **Implementação múltipla**: uma classe pode implementar várias interfaces ao mesmo tempo, resolvendo limitações como herança múltipla.
 * **Abstração**: elas ajudam a separar a definição do que um objeto vai fazer (a interface) da forma como ele faz (a implementação).
 
+----
 ### Qual seu objetivo?
 * **Padronizar**: garantem que diferentes classes ofereçam os mesmos métodos, mesmo que a implementação interna seja diferente.
-* **Polimorfismo**: permitem tratar objetos de diferentes classes de maneira uniforme, se eles implementarem a mesma interface.
+* **[[Polimorfismo]]**: permitem tratar objetos de diferentes classes de maneira uniforme, se eles implementarem a mesma interface.
 * **Baixo acoplamento**: facilitam a troca de implementações sem alterar o código que usa a interface, tornando o sistema mais flexível e fácil de manter.
