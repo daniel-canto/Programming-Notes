@@ -51,7 +51,7 @@ Para saber mais sobre métodos e atributos, clique aqui: [[Métodos e Atributos]
 ~={green}Uma classe abstrata não pode ser instanciada=~, portanto ela não pode gerar um objeto. ~={green}Ela só serve como classe mãe ou progenitora=~, como visto em [[Herança]]. Ela pode conter métodos implementados (com código) e [[Métodos e Atributos#Método Abstrato|métodos abstratos]] (sem código, apenas a assinatura, obrigando as subclasses a implementarem seu código)
 
 ##### O que é uma classe final?
-É uma classe que não pode ser herdada por outra classe. Ela precisa ser obrigatoriamente uma folha, como visto em [[Herança#Navegação pela herança]].
+~={green}É uma classe que não pode ser herdada por outra classe=~. Ela precisa ser obrigatoriamente uma folha, como visto em [[Herança#Navegação pela herança]].
 
 ---
 ### O que é uma instância?
