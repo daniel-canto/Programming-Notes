@@ -12,7 +12,9 @@ Este repositório armazena todas as minhas anotações pessoais sobre programaç
 
 ### Instruções de uso
 No Obsidian, ao acessar a aba "Open graph view", podemos ver todas as anotações desenvolvidas em forma de grafo. Para uma melhor organização, foi desenvolvido um **filtro**, que pode ser usado utilizando as tags dessa forma:
-<img src="img/Pasted image 20250424154748.png">
+<div align="center">
+  <img src="img/Pasted image 20250424154748.png" width="600rem" height="420rem">
+</div>
 Os filtros são usados através das tags, igual à um caminho de pastas de um computador.
 
 Além disso, existe também a **divisão de nodes**, que serve para facilitar a navegação entra as anotações, onde:
