@@ -55,7 +55,7 @@ Para saber mais sobre métodos e atributos, clique aqui: [[Métodos e Atributos]
 
 ---
 ### O que é uma instância?
-Um instância é ~={green}quando criamos um novo objeto através de uma classe=~. Apesar de nós termos criado uma classe para moldar uma caneta, cada caneta pode ser individualmente única.
+Um instância é ~={green}quando criamos um novo [[Classes, Objetos e Instâncias#O que é um objeto?|objeto]] através de uma classe=~. Apesar de nós termos criado uma classe para moldar uma caneta, cada caneta pode ser individualmente única.
 Por exemplo, podemos criar dois objetos de instância da classe caneta: a caneta azul e a caneta preta.
 Ambas possuem as mesmas exatas funções e atributos, porém seus valores podem ser diferentes, por exemplo, a caneta azul possuí o atributo cor como azul, enquanto a caneta preta possuí o atributo cor como preto. São a mesma classe de objeto (uma caneta), mas com características diferentes (nesse caso a cor)
 

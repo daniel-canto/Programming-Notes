@@ -8,8 +8,8 @@ Teoricamente falando,~={green} os métodos seriam o comportamento de um objeto o
 Para os métodos, existe um conceito chamado "[[Métodos e Atributos#Modificadores de visibilidade|modificadores de visibilidade]]", que indicam o nível de acesso aos componentes internos de uma classe.
 
 ##### O que é uma assinatura de método?
-~={green}É o conjunto de informações que identifica de forma única dentro de uma classe. Ela é composta pelo nome do método e pela lista de parâmetros (tipos, quantidade e ordem dos parâmetros)=~. Isso permite que métodos com o mesmo nome, mas com parâmetros e implementações diferentes, coexistam dentro de uma mesma classe ou entre uma classe e suas superclasses, conhecido como [[Polimorfismo#Polimorfismo de sobrecarga (estático)|sobrecarga de métodos]], como visto em polimorfismo.
-
+~={green}É o conjunto de informações que identifica de forma única um método dentro de uma classe. Ela é composta pelo nome do método e pela lista de parâmetros (tipos, quantidade e ordem dos parâmetros)=~. Isso permite que métodos com o mesmo nome, mas com parâmetros e implementações diferentes, coexistam dentro de uma mesma classe ou entre uma classe e suas superclasses, conhecido como [[Polimorfismo#Polimorfismo de sobrecarga (estático)|sobrecarga de métodos]], como visto em polimorfismo.
+ 
 ##### Métodos Acessores (Encapsulamento)
 ~={green}São métodos especiais usados para acessar (get) ou modificar (set) os valores dos [[#Privado (-)|atributos privados]] de uma classe, de forma mais controlada=~. ~={green}Eles são popularmente conhecidos como getters e setters=~.
 O uso desses métodos é diretamente ligado ao conceito de [[Encapsulamento]], que tem como objetivo proteger os dados internos do objeto, garantindo controle e evitando acessos diretos.
@@ -29,8 +29,20 @@ Além dos atributos, ~={green}o construtor também pode chamar outros métodos a
 ##### Método Abstrato
 É um método que é declarado, mas não é implementado na classe progenitora (que seria a classe mãe, como visto em [[Herança]]). Só pode ser utilizado em [[Interfaces|interfaces]] e [[Classes, Objetos e Instâncias#O que é uma classe abstrata?|classes abstratas]].
 
-##### Método final
+##### Método Final
 Ele não pode ser sobrescrito pelas suas sub-classes, ou seja, não há brecha para o uso de [[Polimorfismo#O que é polimorfismo|polimorfismo]]. Ele é obrigatoriamente herdado.
+
+##### Método Estático
+- São métodos associados à classe, e não a uma instância específica.
+- Não têm acesso direto aos atributos de instância nem ao próprio objeto.
+- Podem ser chamados diretamente pelo nome da classe, sem necessidade de criar um objeto.
+- São úteis para funções utilitárias ou operações que não dependem do estado de uma instância.
+* Em linguagens como Java, C# e Python, são declarados com o modificador `static` (ou decorador `@staticmethod` em Python).
+
+##### Método de Instância
+* São métodos que operam sobre os atributos de instância de um objeto, ou seja, dependem dos valores específicos de cada instância. 
+* Para eles serem chamados, é necessário criar um objeto ([[Classes, Objetos e Instâncias#O que é uma instância?|instância]])
+* Permitem acessar e modificar o estado da instância, ou seja, os valores dos atributos daquele objeto específico
 
 ---
 ### Atributos

@@ -3,4 +3,5 @@
 
 Aqui estão listados alguns frameworks e linguagens para front end.
 
-[[ReactJS]]
+[[Conceitos de Frontend]]
+[[JavaScript]]

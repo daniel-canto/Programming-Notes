@@ -29,10 +29,11 @@ Imagine uma classe chamada `Funcionario` com um método `calcularSalario()`. As 
 Existem alguns tipos de polimorfismo que podem ser usados em casos específicos.
 
 ##### Polimorfismo de sobrescrita (dinâmico)
-~={green}Ocorre quando os métodos com a mesma [[Métodos e Atributos#O que é uma assinatura de método?|assinatura]] são implementados de formas diferentes das subclasses.=~ A decisão de qual método executar é feita em runtime, com base no tipo real do objeto.
+~={green}Ocorre quando os métodos com a mesma [[Métodos e Atributos#O que é uma assinatura de método?|assinatura]] são implementados de formas diferentes nas subclasses.=~ A decisão de qual método executar é feita em runtime, com base no tipo real do objeto.
+Vale ressaltar que ela só pode ocorrer uma vez em uma mesma classe, assim, tendo que ser utilizada em classes diferentes.
 
 Na maioria das linguagens, quando formos implementar esses métodos, usamos anotações como `@override` ou `@sobrepor`. Isso varia de linguagem para linguagem.
 
 ##### Polimorfismo de sobrecarga (estático)
 ~={green}Ocorre quando métodos com o mesmo nome, mas [[Métodos e Atributos#O que é uma assinatura de método?|assinaturas]] diferentes, existem na mesma classe, ou quando uma subclasse altera a assinatura, modificando parâmetros.=~ A escolha do método é feita em runtime, com base nos parâmetros utilizados.
- 
+  
