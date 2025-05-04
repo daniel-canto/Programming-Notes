@@ -9,3 +9,8 @@ Além disso, ~={green}ele é baseado em componentes=~, utiliza o [[JSX]] para re
 [[Arquivos base do React]]
 [[JSX em React]]
 [[Componentes]]
+[[CSS Modules]]
+[[React Fragments]]
+[[Eventos]]
+[[Hooks]]
+[[Técnicas React]]

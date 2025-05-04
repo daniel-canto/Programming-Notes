@@ -1,5 +1,8 @@
  #frontend/javascript/frameworks/reactjs/arquivos_base_do_react   
 
+```table-of-contents
+```
+
 Ao gerar um novo projeto em React, uma estrutura de pastas é gerado. Aqui, explicarei as funções delas.
 
 ###### /public/index.html 
