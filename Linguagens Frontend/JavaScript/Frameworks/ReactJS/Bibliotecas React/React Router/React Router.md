@@ -1,4 +1,14 @@
-#frontend/javascript/frameworks/reactjs/react_router 
+#frontend/javascript/frameworks/reactjs/bibliotecas_react/react_router 
+
+```table-of-contents
+title: 
+style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 0 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+hideWhenEmpty: false # Hide TOC if no headings are found
+debugInConsole: false # Print debug info in Obsidian console
+```
 
 ### O que é?
 ~={green}O React Router é uma biblioteca para React que permite implementar o conceito de roteamento em aplicações de página única=~ (~={blue}SPA=~). Com ele, você pode mapear URLs para componentes em React, ~={green}criando a navegação entre diferentes "páginas" da sua aplicação sem recarregar o servidor, apenas trocando o layout da aplicação=~.
@@ -187,3 +197,6 @@ export default App;
 ```
 
 Onde novamente, tanto a `<Navbar/>` quanto o `<Footer/>` serão exibidos em todas as views do projeto, por estarem dentro da tag `<Router>...</Router>`, enquanto o layout das views só serão carregas de acordo com a URL da aplicação. Portanto, isso amplia a reutilização do React.
+
+### Conteúdos adicionais sobre o React Router
+[[Hooks React Router]]

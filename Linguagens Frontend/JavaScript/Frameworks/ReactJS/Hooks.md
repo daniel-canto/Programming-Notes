@@ -84,3 +84,58 @@ const [name, setName] = useState('Dan')
 
 <input type="text" value={name} name="name" id="name" placeholder="Digite seu nome" onChange={(e) => setName(e.target.value)}></input>
 ```
+
+##### useEffect
+É um hook que permite executar efeitos colaterais em componentes funcionais, como busca de dados em uma API, manipular o DOM, configurar assinaturas de eventos ou sincronizar o componente com sistemas externos. 
+Ele consegue isso, pois o React executa o efeito após a atualização do DOM, garantindo que a interface esteja atualizada antes de rodar o código do efeito.
+Se necessário, a função passada ao `useEffect` pode retornar outra função, chamada de **função de limpeza** (_cleanup_), que será executada antes do efeito rodar novamente ou quando o componente for desmontado. Isso é útil para cancelar assinaturas, limpar timers ou desfazer efeitos anteriores
+
+**Seu uso é feito da seguinte forma:**
+O `useEffect` recebe dois argumentos:
+1. **Uma função de efeito**: é o código que será executado após a renderização do componente. Dentro dessa função, você pode acessar props e estados atuais do componente.
+2. **Um array de dependências (opcional)**: determina quando o efeito deve ser executado novamente. Se o array estiver vazio (`[]`), o efeito roda apenas uma vez, na montagem do componente. Se você omitir o array, o efeito será executado após toda renderização. Se você incluir variáveis no array, o efeito será executado sempre que alguma dessas variáveis mudar de valo.
+
+**Exemplo de uso de `useEffect`**:
+```jsx
+**function ProjectForm({ btnText }) {
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:5000/categories", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((resp) => resp.json())
+      .then((data) => {
+        setCategories(data);
+      })
+      .catch((err) => console.log(err));
+  }, []);
+
+  return (
+    <form className={styles.form}>
+      <Input
+        type="text"
+        text="Nome do projeto"
+        name="name"
+        placeholder="Insira o nome do projeto"
+      />
+      <Input
+        type="number"
+        text="Orçamento do projeto"
+        name="budget"
+        placeholder="Insira o orçamento total"
+      />
+      <Select
+        name="category_id"
+        text="Selecione a categoria"
+        options={categories}
+      />
+      <SubmitButton text={btnText} />
+    </form>
+  );
+}
+```
+Nesse exemplo, estamos realizando uma requisição para obter as categorias cadastradas. Utilizamos o `useEffect` para que a requisição seja feita apenas em uma única renderização. Sem esse hook, a aplicação faria requisições infinitas.

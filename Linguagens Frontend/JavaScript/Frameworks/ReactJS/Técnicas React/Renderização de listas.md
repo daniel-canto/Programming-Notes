@@ -51,3 +51,6 @@ function App() {
 export default App;
 
 ```
+
+Para utilizar essa técnica com dados vindos de uma API (como o seu backend do projeto), nós podemos utilizar a técnica descrita nessa anotação [[Requisições em componentes]].
+A lógica seria a mesma, mas usando dados vindos direto de um backend.
