@@ -1,6 +1,9 @@
 #sap/sap_antigo/sap_pi/componentes_sap_pi/system_landscape_directory
 #topico_nv3 
 
+```table-of-contents
+```
+
 ### O que é?
 O SLD (System Landscape Directory) no SAP PI é um componente central e fundamental do ambiente SAP, pois é responsável por gerenciar e armazenar informações detalhadas sobre todos os sistemas e componentes que fazem parte do landscape SAP de uma organização.
 * Ele funciona como um repositório central que descreve todos os sistemas (SAP e não-SAP), servidores, produtos, versões de componentes de software e suas relações dentro do ambiente de TI.
