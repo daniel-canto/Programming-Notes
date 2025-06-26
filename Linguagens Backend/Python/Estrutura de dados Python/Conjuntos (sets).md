@@ -1,4 +1,4 @@
-#backend/python/estrutura_de_dados/conjuntos
+#backend/python/estrutura_de_dados_python/conjuntos
 
 Os conjuntos são os mesmos conjuntos que aprendemos na escola, a teoria dos conjuntos.
 

@@ -1,4 +1,4 @@
-#backend/python/estrutura_de_dados/dicionarios 
+#backend/python/estrutura_de_dados_python/dicionarios 
 
 Ele é uma estrutura de dados do Python que armazena pares de chave-valor. Ou seja, ele permite que você associe uma chave (identificador único) a um valor correspondente.
 Assim como a lista, o dicionário é um [[Tipos Mutáveis e Imutáveis#Objetos Mutáveis|objeto mutável]]. 

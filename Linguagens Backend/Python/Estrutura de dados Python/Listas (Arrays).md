@@ -1,4 +1,4 @@
-#backend/python/estrutura_de_dados/listas
+#backend/python/estrutura_de_dados_python/listas
 Em primeiro lugar, uma lista em Python é o equivalente à um array em linguagens de programação mais famosas, como o C e o JS.
 
 Em Python, uma lista é um [[Tipos Mutáveis e Imutáveis#Objetos Mutáveis|objeto mutável]] ou seja, podemos fazer mais coisas com esse tipo além de acessar valores, como um CRUD.
@@ -120,7 +120,7 @@ Com isso, é bom ~={red}tomar cuidado para não modificar indevidamente uma list
 
 ----
 ### Usando listas com estruturas de repetições
-Para se utilizar uma lista com estrutura de repetições, normalmente usamos a [[Sintaxe Estruturas Básicas#Estrutura for|estrutura for]], dessa forma:
+Para se utilizar uma lista com estrutura de repetições, normalmente usamos a [[Estruturas básicas Python#Estrutura for|estrutura for]], dessa forma:
 ```python
 numeros = [3, 9, 4, 1, 6, 7, 6, 13, 12]
 

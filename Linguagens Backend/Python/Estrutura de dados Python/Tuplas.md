@@ -1,4 +1,4 @@
-#backend/python/estrutura_de_dados/tuplas
+#backend/python/estrutura_de_dados_python/tuplas
 Basicamente, a tupla é uma [[Listas (Arrays)|lista]] [[Tipos Mutáveis e Imutáveis#Objetos Imutáveis|imutável]], ou seja, seus valores não podem ser alterados.
 
 Apesar disso, a tupla é mais rápida que a lista, por isso quando não precisamos alterar uma lista, é melhor usar uma tupla, por questões performáticas. 

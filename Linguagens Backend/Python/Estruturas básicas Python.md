@@ -1,4 +1,4 @@
-#backend/python/sintaxe_estruturas_básicas
+#backend/python/estruturas_básicas_python
 Aqui está registrado apenas os fundamentos mais básicos do Python, coisas bem simples e comuns.
 
 ```table-of-contents

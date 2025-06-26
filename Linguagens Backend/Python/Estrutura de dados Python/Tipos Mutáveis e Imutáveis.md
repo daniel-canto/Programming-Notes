@@ -1,4 +1,4 @@
-#backend/python/estrutura_de_dados/tipos_mutaveis_e_imutaveis 
+#backend/python/estrutura_de_dados_python/tipos_mutaveis_e_imutaveis 
 
 Em Python, a distinção entre objetos mutáveis e imutáveis é fundamental para entender como o gerenciamento de memória dessa linguagem funciona.
 
