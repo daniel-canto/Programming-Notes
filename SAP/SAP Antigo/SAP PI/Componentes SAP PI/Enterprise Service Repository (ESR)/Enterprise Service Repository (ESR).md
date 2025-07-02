@@ -27,3 +27,8 @@ Normalmente, esse seria o fluxo básico de criação no ESR. Entretanto, isso po
 ---
 ### Descrição dos objetos do ESR
 Aqui, estarão listados os objetos do ESR com suas características e opções.
+
+[[Data Types]]
+[[Message Types]]
+[[Message Mapping]]
+[[Service Interface]]
