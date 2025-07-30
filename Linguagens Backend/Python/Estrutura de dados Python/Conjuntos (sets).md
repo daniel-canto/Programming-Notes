@@ -2,7 +2,7 @@
 
 Os conjuntos são os mesmos conjuntos que aprendemos na escola, a teoria dos conjuntos.
 
-Os sets em Python são [[Tipos Mutáveis e Imutáveis#Objetos Mutáveis|objetos mutáveis]], porém ~={green}seus itens são obrigatoriamente [[Tipos Mutáveis e Imutáveis#Objetos Imutáveis|tipos mutáveis]]=~.
+Os sets em Python são [[Tipos Mutáveis e Imutáveis#Objetos Mutáveis|objetos mutáveis]], porém ~={green}seus itens são obrigatoriamente [[Tipos Mutáveis e Imutáveis#Objetos Imutáveis|tipos umutáveis]]=~.
 Aqui estão suas principais características:
 * Seus valores sempre serão únicos
 * Não aceitam valores mutáveis.
