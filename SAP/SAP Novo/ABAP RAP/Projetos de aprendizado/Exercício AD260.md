@@ -1,4 +1,4 @@
-#sap/sap_novo/abap_rap/exercicio_ad260 
+#sap/sap_novo/abap_rap/projetos_de_aprendizado/exercicio_ad260  
 
 Este é um exercício desenvolvido pela própria SAP, utilizando o cenário Sflight. Este exercício tem como objetivo aplicar diversos conceitos de ABAP RAP em um projeto. Portanto, conceitos de desenvolvimento como [[Late Numbering]], [[Metadata Extensions]], [[Validations]], [[Actions]], [[Determinations]], [[Side Effects]], [[Functions]], [[Business Events]] e [[Dynamic Feature Control]] serão utilizados para o desenvolvimento deste projeto, além de funcionalidades como o [[draft]].
 

@@ -6,3 +6,9 @@
 
 ### O que é?
 O SAP BTP é um PaaS (Platform as a Service), que fornece diversas ferramentas úteis para diversos segmentos, como banco de dados e gerenciamento de dados, desenvolvimento de aplicações e integrações, análise de dados e por fim, tecnologias inteligentes. 
+
+Com isso, o objetivo principal do BTP, é oferecer ferramentas que não interfiram no core (núcleo) do sistema, portanto, surgiu-se o conceito de [[Extensibilidades]].
+
+---
+### Tópicos
+[[ABAP Environment]]

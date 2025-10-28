@@ -34,3 +34,7 @@ Normalmente, o EML tem 3 declarações principais, sendo elas o _modify_, _read_
 É aqui que podemos expor as entidades CDS em conjunto ou separadamente. Como dito anteriormente, ele continua sendo _server-agnostic,_ ou seja, podemos usar tanto OData v2 ou OData v4.
 ###### Service Binding
 Pela primeira vez no modelo RAP, há algo que não é _server-agnostic_, aqui, vamos pegar a Service Definition e conectar com o _client-server_ através de um protocolo OData, sendo o v2 ou v4.
+
+---
+### Conteúdos sobre ABAP RAP
+[[Projetos de aprendizado]]
