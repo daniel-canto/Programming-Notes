@@ -22,7 +22,7 @@ Normalmente, seria esse o fluxo:
 4. Criar [[Service Interface]] para envio e recebimento e definir se a integração será síncrona ou assíncrona.
 5. Criar [[Operation Mapping]] referenciando o [[Service Interface]] de envio e retorno, além dos respectivos [[Message Mapping||Message Mappings]].
 
-Normalmente, esse seria o fluxo básico de criação no ESR. Entretanto, isso pode variar para cada caso, portanto na seção de [[Técnicas SAP PI]], podemos ver exemplos de criação de projeto do 0 em diferentes cenários de integração.
+Normalmente, esse seria o fluxo básico de criação no ESR. Entretanto, isso pode variar para cada caso, portanto na seção de [[Técnicas SAP PI]], podemos ver exemplos de criação de projeto do zero em diferentes cenários de integração.
 
 ---
 ### Descrição dos objetos do ESR
