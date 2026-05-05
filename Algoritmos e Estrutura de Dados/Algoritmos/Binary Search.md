@@ -54,6 +54,9 @@ Para isso, seguimos esses passos:
 4. **Terceira iteração: Encontro do Elemento**:
 	Com $inicio = 4$ e $fim = 4$, o elemento central é: $$meio = \frac{4 + 4}{2} = 4$$
 	O elemento no índice `[4]` é o elemento 9, que corresponde ao valor buscado. O algoritmo retorna o índice 4, indicando a posição do elemento na lista.
+<<<<<<< HEAD
 
 ### Código do algoritmo
 Abaixo, está um exemplo em código para a aplicação desse algoritmo de busca. A linguagem utilizada foi o [[Python]].
+=======
+>>>>>>> origin/main
