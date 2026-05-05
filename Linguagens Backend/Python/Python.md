@@ -6,6 +6,6 @@ Python é uma linguagem de programação fortemente tipada e interpretada muito 
 ### Índice
 
 [[Estruturas básicas Python]]
-[[Bibliotecas]]
+[[Linguagens Backend/Python/Bibliotecas/Bibliotecas]]
 [[Estrutura de dados Python]]
 

@@ -60,4 +60,4 @@ Esse modificador normalmente vem como padrão nos atributos e métodos, ele deix
 Assim como o nome diz, esse modificador priva a classe, onde o uso de um componente privado ~={green}só pode ser usado pela própria classe ou se essa classe tiver um [[Encapsulamento]] que possua esse componente=~. Normalmente são dados sensíveis, como senhas ou informações bancárias.
 
 ##### Protegido (#)
-Esse modificador permite que ~={green}apenas a classe atual e suas filhas (ou sub-classes) tenham acesso ao seus componentes=~. Normalmente são métodos ou atributos que ó fazem sentido dentro da hierarquia de classes.
+Esse modificador permite que ~={green}apenas a classe atual e suas filhas (ou sub-classes) tenham acesso ao seus componentes=~. Normalmente são métodos ou atributos que só fazem sentido dentro da hierarquia de classes.

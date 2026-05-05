@@ -49,7 +49,7 @@ Para saber mais sobre métodos e atributos, clique aqui: [[Métodos e Atributos]
 
 ##### O que é uma classe abstrata?
 ~={green}Uma classe abstrata não pode ser instanciada=~, portanto ela não pode gerar um objeto. ~={green}Ela só serve como classe mãe ou progenitora=~, como visto em [[Herança]]. Ela pode conter métodos implementados (com código) e [[Métodos e Atributos#Método Abstrato|métodos abstratos]] (sem código, apenas a assinatura, obrigando as subclasses a implementarem seu código)
-
+Vale ressaltar, que uma classe só pode extender uma classe abstrata apenas uma vez, diferentemente das [[Interfaces]].
 ##### O que é uma classe final?
 ~={green}É uma classe que não pode ser herdada por outra classe=~. Ela precisa ser obrigatoriamente uma folha, como visto em [[Herança#Navegação pela herança]].
 
@@ -59,3 +59,12 @@ Um instância é ~={green}quando criamos um novo [[Classes, Objetos e Instância
 Por exemplo, podemos criar dois objetos de instância da classe caneta: a caneta azul e a caneta preta.
 Ambas possuem as mesmas exatas funções e atributos, porém seus valores podem ser diferentes, por exemplo, a caneta azul possuí o atributo cor como azul, enquanto a caneta preta possuí o atributo cor como preto. São a mesma classe de objeto (uma caneta), mas com características diferentes (nesse caso a cor)
 
+---
+### Modificadores de visibilidade 
+Assim como nos [[Métodos e Atributos#Modificadores de visibilidade|métodos e atributos]], as classes também possuem modificadores de visibilidade, que normalmente são 2.
+
+##### Public
+A visibilidade public permite que a classe seja visível para todos os outros pacotes do projeto, assim podendo ser utilizada em qualquer ponto do sistema.
+
+##### Default
+A visibilidade default ~={green}permite que apenas classes no mesmo pacote consigam enxergar essa classe=~, assim ela só pode ser importada por classes do mesmo pacote.
